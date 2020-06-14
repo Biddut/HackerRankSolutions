@@ -1,6 +1,6 @@
 package javaBasics;
 //https://www.hackerrank.com/challenges/java-primality-test/problem
-
+//https://docs.oracle.com/javase/9/docs/api/java/math/BigInteger.html#isProbablePrime-int-
 import java.math.BigInteger;
 import java.util.Scanner;
 
