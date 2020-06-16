@@ -29,5 +29,31 @@ public class HourGlass {
         }
 
         scanner.close();
+        
+        int maxHourGlass=0;
+        int HourGlass=0;
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 4; j++) {
+               // System.out.print(arr[i][j]+" "); 
+                
+                HourGlass=arr[i][j]+arr[i+1][j]+arr[i+2][j]
+                			+ 		   arr[i+1][j+1]
+                			+arr[i][j+2]+arr[i+1][j+2]+arr[i+2][j+2]		
+                			;
+            
+                System.out.println("HourGlass"+HourGlass); 	
+            }
+            
+            if(HourGlass>maxHourGlass) {
+            	 maxHourGlass = HourGlass;
+            }
+            
+            System.out.println("maxHourGlass"+maxHourGlass); 	
+         
+        }
+        
+        System.out.println(maxHourGlass);
+        
+        
     }
 }
