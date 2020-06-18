@@ -13,7 +13,6 @@ public class JavaArrayList2 {
     	Scanner sc= new Scanner(System.in);
     	int n=sc.nextInt();
 
-    	int d;
     	ArrayList<Integer> set = new ArrayList<>();
     	for(int i=0;i<n;i++){
     		set.add(sc.nextInt());
