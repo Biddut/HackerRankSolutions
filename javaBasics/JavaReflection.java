@@ -1,6 +1,8 @@
 package javaBasics;
 
-
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class JavaReflection {
 
