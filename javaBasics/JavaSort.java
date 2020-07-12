@@ -38,7 +38,7 @@ class NameComparator implements Comparator<Student>{
                 return nameCompare;
         } else
 		
-			return (int) ((s2.getCgpa()*100)-(s1.getCgpa()*100));
+			return (int) ((s2.getCgpa()*1000)-(s1.getCgpa()*1000));
 	}  
 }
 public class JavaSort
