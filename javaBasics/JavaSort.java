@@ -28,8 +28,17 @@ class Student{
 }
 
 class NameComparator implements Comparator<Student>{  
-	public int compare(Student s1,Student s2){  
-		return s1.getFname().compareTo(s2.getFname());  
+	public int compare(Student s1,Student s2){ 
+		if (s1.getCgpa() == s2.getCgpa()) {
+            int nameCompare = s1.getFname()
+            .compareTo(s2.getFname());  //FName compared ascending way
+            if (nameCompare == 0)
+                return s1.getId() - s2.getId(); //ID compared ascending way
+            else
+                return nameCompare;
+        } else
+		
+			return (int) ((s2.getCgpa()*100)-(s1.getCgpa()*100));
 	}  
 }
 public class JavaSort
