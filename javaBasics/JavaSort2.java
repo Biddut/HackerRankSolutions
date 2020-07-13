@@ -27,7 +27,7 @@ class Student2 {
 	}
 
 	
-	  public int compareTo(Object o){ Student s=(Student)o; if(cgpa==s.cgpa){
+	  public int compareTo(Object o){ Student1 s=(Student1)o; if(cgpa==s.cgpa){
 	  if(fname.equals(s.fname)){ return id-s.id; }else{ return
 	  fname.compareTo(s.fname); } }else{ if(s.cgpa-cgpa>0) return 1; else return
 	  -1; } }
