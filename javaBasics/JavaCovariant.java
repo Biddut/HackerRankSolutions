@@ -30,26 +30,26 @@ class Lotus extends Flower{
     }
 }
 
-class State{
+class Region{
     Flower yourNationalFlower(){
         return new Flower();
     }
 }
-class WestBengal extends State{
+class WestBengal extends Region{
     @Override
-    Jasmine yourNationalFlower(){
+    Flower yourNationalFlower(){
         return new Jasmine();
     }
 }
-class Karnataka extends State{
+class Karnataka extends Region{
     @Override
-    Lotus yourNationalFlower(){
+    Flower yourNationalFlower(){
         return new Lotus();
     }
 }
-class AndhraPradesh extends State{
+class AndhraPradesh extends Region{
     @Override
-    Lily yourNationalFlower(){
+    Flower yourNationalFlower(){
         return new Lily();
     }
 }
