@@ -43,7 +43,7 @@ public class HashTablesRansomNote {
 	
 	// Hashtable<Integer, String> magazine1 = new Hashtable<Integer, String>();
 	 
-	 HashMap<Integer,String> magazine1=new HashMap<Integer,String>(); 
+	// HashMap<Integer,String> magazine1=new HashMap<Integer,String>(); 
 	 
 	 Hashtable<String,Integer> magazine2 = new Hashtable<String,Integer>();
 	 
@@ -51,7 +51,7 @@ public class HashTablesRansomNote {
 	 
 	 for(int i=0; i<magazine.length;i++) {
 	 
-	 magazine1.put(i, magazine[i]);
+	// magazine1.put(i, magazine[i]);
 	 magazine2.put(magazine[i],i);
 	 
 	 
@@ -61,7 +61,7 @@ public class HashTablesRansomNote {
 	 
 	 }
 	 
-	 System.out.println("Magazines Values: "+magazine2);
+	// System.out.println("Magazines Values: "+magazine2);
 	 
 	/* for(int j=0; j<note.length;j++) {
 	 
