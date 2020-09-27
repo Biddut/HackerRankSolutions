@@ -5,7 +5,6 @@ public class GitTest2 {
 		// TODO Auto-generated method stub
 		System.out.println("Hello GIT1");
 		System.out.println("git add * or add .");
-		System.out.println("git commit amend 2");
 
 	}
 
